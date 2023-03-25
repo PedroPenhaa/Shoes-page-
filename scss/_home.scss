@@ -100,7 +100,18 @@
         -webkit-text-fill-color: transparent;
     }
     .box{
-        
+        width: 90%;
+        margin: 0 auto;     
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 25px 0;
+        .card{
+            .image{
+                img{
+                    width: 150px;
+                }
+            }
+        }
     }
 }
 
