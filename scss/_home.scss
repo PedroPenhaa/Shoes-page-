@@ -39,4 +39,44 @@
             }
         }
     }
+
+    .social_icon{
+        position: absolute;
+        top: 50%;
+        left: 98%;
+        transform: translate(-50%, -50%);
+        font-size: 19px;
+        i{
+            margin: 8px 0;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        i:hover{
+            color: #c72092;
+        }
+    }
+
+    .button{
+        position: absolute;
+        left: 6%;
+        padding: 10px 20px;
+        border-radius: 30px;
+        background: linear-gradient(to right , #c72092, #6c14d0);
+        transition: 0.3s;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        i{
+            color: white;
+            margin-left: 5px;
+            transition: 0.3s;
+        }
+    }
+    .button:hover{
+        transform: scale(1.1);
+        i{
+            transform: translateX(6px);
+        }
+    }
 }
