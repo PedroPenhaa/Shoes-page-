@@ -12,7 +12,7 @@
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 position: relative;   
-                top: 45px;
+                top: 60px;
                 left: 5%;
                 span{
                     font-size: 70px;
@@ -22,12 +22,20 @@
                 }
             }
             p{
-                width: 600px;
+                width: 590px;
                 text-align: justify;
                 line-height: 21px;
                 position: relative;
                 top: 85px;
                 left: 5%;
+            }
+        }
+        .main_image{
+            img{
+                width: 530px;
+                position: relative;
+    /*          left: 20px;         */
+                top: 75px;    
             }
         }
     }
