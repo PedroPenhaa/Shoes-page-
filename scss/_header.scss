@@ -22,5 +22,31 @@ header{
                 text-decoration: underline;
             }
         }
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;
+                margin: 5px 15px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    transition: 0.2s;
+                }
+                a:hover{
+                    color: #c72092;
+                }
+            }
+        }
+        .icons{
+            i{
+                margin: 0 4px;
+                cursor: pointer;
+                font-size: 18px;
+                transition: 0.3s;
+            }
+            i:hover{
+                color: #c72092;
+            }
+        }
     }
 }
