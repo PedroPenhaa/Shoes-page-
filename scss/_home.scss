@@ -156,7 +156,7 @@
                     margin: 8px 0;
                 }
                 h3{
-                    margin: 5px 0;
+                    margin: 7px 0;
                 }
                 .products_star{
                     color: orange;
@@ -190,6 +190,7 @@
     width: 100%;
     height: 100vh;
     padding: 35px 0;
+    margin-top: 11%;
     h1{
         font-size: 60px;
         margin-top: 20px;
@@ -209,7 +210,6 @@
     }
     .about_main{
         position: relative;
-        margin-top: 20px;
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -217,30 +217,43 @@
         justify-content: space-around;
         align-items: center;
         .about_image{
-            .about_small{
+            display: flex;
+            margin-top: 50px;             
                 .about_small_image{
                     display: flex;
                     flex-direction: column;
                     position: relative;
-                    top: 16.1rem;
+                    top: 15px;
                     img{
-                        width: 152px;
-                        height: 107px;
+                        height: 92px;
                         margin: 5px 0;
                         cursor: pointer;
-                        background: linear-gradient(to right, #6c14d0  ,#c72092);
+                        background: linear-gradient(to right, #6c14d0 , #c72092);
                         display: block;
                         border-radius: 6px;
                         padding: 5px 5px;
-                        box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+                        box-shadow: 0 0 6px rgba(0,0,0,0.6);
                         opacity: 0.8;
+                        transition: 0.3s;
+                    }
+                    img:hover{
+                        opacity: 1; 
                     }
                 }
-            }
-        }
-
-   
-    }
+                .image_container{
+                    padding: 10px;
+                    display: flex;
+                    img{
+                        border: 3px solid #6c14d0;
+                        border-radius: 20px;
+                        height: 430px;
+                        padding: 30px;
+                        box-shadow: 0 0 8px #6c14d0;
+                    }
+                }
+         }
+    } 
 }
+
 
 
