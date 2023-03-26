@@ -252,7 +252,40 @@
                     }
                 }
          }
+         .about_text{
+             margin-top: 45px;
+             p{
+                background-image: linear-gradient(to left, #c72092, #6c14d0);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                line-height: 22px;
+                width: 600px;
+                text-align: justify;
+                padding: 25px 30px;
+                border: 2px solid #c72092;
+                border-radius: 20px;
+                box-shadow: 0 0 8px #c72092;
+             }
+         }
     } 
+    .about_btn{
+        color: black;
+        background: none;
+        position: relative;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 25px;
+        border: 2px solid #c72092;
+        text-decoration: none;
+        box-shadow: 0 0 8px #c72092;
+        transition: 0.5s;
+    }
+    .about_btn:hover{
+        border: 2px solid transparent;
+        background: #c72092;
+        color: white;
+    }
 }
 
 
