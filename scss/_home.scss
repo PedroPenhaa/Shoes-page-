@@ -209,6 +209,7 @@
     }
     .about_main{
         position: relative;
+        margin-top: 20px;
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -221,10 +222,10 @@
                     display: flex;
                     flex-direction: column;
                     position: relative;
-                    top: 15px;
+                    top: 16.1rem;
                     img{
                         width: 152px;
-                        height: 92px;
+                        height: 107px;
                         margin: 5px 0;
                         cursor: pointer;
                         background: linear-gradient(to right, #6c14d0  ,#c72092);
