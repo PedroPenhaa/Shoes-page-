@@ -435,4 +435,105 @@
             width: 650px;
         }
     }
+    .right{
+        position: relative;
+        top: -50px;
+        left: -60px;
+        padding: 50px 80px;
+        h1{
+            font-family: prevattscriptssk;
+            font-size: 45px;
+            margin-bottom: 40px;
+        }
+        p{
+            margin-bottom: 5px;
+        }
+        .user{
+            border: 2px solid #6c14d0;
+            border-radius: 5px;
+            width: 350px;
+            height: 40px;
+            display: flex;
+            i{
+                position: relative;
+                top: 9px;
+                left: 15px;
+                color: #c72092;
+            }
+            .username{
+                position: relative;
+                left: 9%;
+                width: 295px;
+                background: none;
+                outline: none;
+                border: none;
+                display: flex;
+                font-size: 15px;
+            }
+        }
+        .passworg_tag{
+            margin: 15px 0 5px 0;
+        }
+        .password{
+            border:  2px solid #6c14d0;
+            border-radius: 5px;
+            width: 350px;
+            height: 40px;
+            display: flex;
+            i{
+                position: relative;
+                top: 9px;
+                left: 15px;
+                color: #c72092;
+            }
+            input{
+                position: relative;
+                left: 9%;
+                width: 295px;
+                background: none;
+                border: none;
+                outline: none;
+                display: flex;
+                font-size: 15px;
+                ::-webkit-input-placeholder{
+                    color: black;
+                    opacity: 0.7;
+                }
+            }
+        }
+        .forget{
+            position: relative;
+            left: 60%;
+            margin: 6px 0 10px 0;
+            cursor: pointer;
+        }
+        button{
+            width: 350px;
+            color: white;
+            padding: 7px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            background: linear-gradient(to right, #c72092, #6c14d0); 
+        }
+        .loging_icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 25px;
+            a{
+               width: 30px;
+               height: 30px;
+               margin: 0 2px;
+               border-radius: 50%;
+               background: #f3f3f3;
+               box-shadow: 0 0 5px rgba(0,0,0,0.6); 
+            }
+            img{
+                width: 20px;
+                margin: 5px 5px;
+            }
+        }
+    }
 }   
